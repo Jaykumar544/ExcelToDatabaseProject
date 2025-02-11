@@ -87,7 +87,7 @@ public class ExcelController {
         String reportUrl = "/reports/customer." + reportFormat.toLowerCase();
 
         // Ensure the file exists on the file system
-        File file = new File("E:\\Extra study files\\MongoDB\\Excel_To_Database\\src\\main\\webapp" + reportUrl);
+        File file = new File("D:\\MyStudyFiles\\MyProjectStudy\\ExcelToDatabaseProject\\src\\main\\webapp" + reportUrl);
         if (!file.exists()) {
             throw new FileNotFoundException("File not found: " + file.getAbsolutePath());
         }

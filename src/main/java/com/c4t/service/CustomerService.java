@@ -22,7 +22,8 @@ public class CustomerService
     @Autowired
     CustomerRepository customerRepository;
 
-    String path = "E:\\Extra study files\\MongoDB\\Excel_To_Database\\src\\main\\webapp\\reports";
+    String path = "D:\\MyStudyFiles\\MyProjectStudy\\ExcelToDatabaseProject\\src\\main\\webapp\\reports";
+
 
     public String exportReport(String reportFormat) throws FileNotFoundException, JRException {
         List<Customer> customers = customerRepository.findAll();
